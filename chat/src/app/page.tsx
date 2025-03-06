@@ -1,7 +1,9 @@
-export default function Home() {
+import Link from "next/link";
+
+export default function Page() {
   return (
-    <>
-      <h1>Hello World!</h1>
-    </>
+    <div>
+      <Link href="/user">User</Link>
+    </div>
   );
 }
