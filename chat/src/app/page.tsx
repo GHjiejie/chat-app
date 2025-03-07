@@ -1,9 +1,9 @@
-import Link from "next/link";
+import Chat from "./(commonLayout)/chat/page";
 
 export default function Page() {
   return (
     <div>
-      <Link href="/user">User</Link>
+      <Chat />
     </div>
   );
 }
